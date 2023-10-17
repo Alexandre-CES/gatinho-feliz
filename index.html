@@ -30,7 +30,7 @@
         </section>
         <section id="produtos">
             <article id="imagemdefundo1">
-                <div class="escurecerfundo">
+                <div class="cordefundo" id="cordefundo1">
                     <div class="caixadefundo">
                         <p>Produtos da mais alta qualidade vendidos a um custo baixo</p>
                     </div>
@@ -39,23 +39,23 @@
             <article id="maisvendidos">
                 <h1>Mais Vendidos:</h1>
                 <div class="inline-blocks">
-                    <div class="produto">
-                        <h1>Produto1</h1>
+                    <div class="bloco">
+                        <h1 class="nomeproduto">Produto1</h1>
                         <a href="https://avipecprodutos.fbitsstatic.net/img/p/racao-gato-whiskas-ad-salmao-900gr-dry-natureza-71827/258370-1.jpg?w=520&h=520&v=no-change&qs=ignore" target="_blank" rel="next"><img src="https://avipecprodutos.fbitsstatic.net/img/p/racao-gato-whiskas-ad-salmao-900gr-dry-natureza-71827/258370-1.jpg?w=520&h=520&v=no-change&qs=ignore" alt=""></a>
                         <p class="descricaoproduto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit</p>
                     </div>
-                    <div class="produto">
-                        <h1>Produto2</h1>
+                    <div class="bloco">
+                        <h1 class="nomeproduto">Produto2</h1>
                         <img src="#" alt="">
                         <p class="descricaoproduto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit</p>
                     </div>
-                    <div class="produto">
-                        <h1>Produto3</h1>
+                    <div class="bloco">
+                        <h1 class="nomeproduto">Produto3</h1>
                         <img src="#" alt="">
                         <p class="descricaoproduto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit</p>
                     </div>
-                    <div class="produto">
-                        <h1>Produto4</h1>
+                    <div class="bloco">
+                        <h1 class="nomeproduto">Produto4</h1>
                         <img src="#" alt="">
                         <p class="descricaoproduto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit</p>
                     </div>
@@ -65,29 +65,31 @@
 
         <section id="sectionprofissionais">
             <article id="imagemdefundo2">
-                <div class="caixadefundo">
-                    <p>Profissionais muito bem capacitados e prontos para o serviço</p>
+                <div class="cordefundo" id="cordefundo2">
+                    <div class="caixadefundo">
+                        <p>Profissionais muito bem capacitados e prontos para o serviço</p>
+                    </div>
                 </div>
             </article>
             <article id="profissionais">
                 <div class="profissional">
                     <h1>Dr. Fábio</h1>
-                    <img src="#" alt="">
+                    <img src="https://ih0.redbubble.net/image.664756783.1475/raf,360x360,075,t,fafafa:ca443f4786.jpg" alt="">
                     <p>Médico/Veterinário</p>
                 </div>
                 <div class="profissional">
                     <h1>Ângela</h1>
-                    <img src="#" alt="">
+                    <img src="https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg" alt="">
                     <p>Gerente</p>
                 </div>
                 <div class="profissional">
                     <h1>Rodrigo</h1>
-                    <img src="#" alt="">
+                    <img src="https://i.pinimg.com/1200x/10/6f/34/106f34e7df95340581e3bd349760ff94.jpg" alt="">
                     <p>Empresário</p>
                 </div>
                 <div class="profissional">
                     <h1>Prometeu</h1>
-                    <img src="#" alt="">
+                    <img src="https://pbs.twimg.com/media/E_sIp-oWUAIeVHI.jpg" alt="">
                     <p>Companheiro felino</p>
                 </div>
             </article>
@@ -97,25 +99,27 @@
         </div>
     </main>
     <footer id="informacao">
-        <section id="redessociais">
-            <h1>Redes Sociais</h1>
-            <a href="#" target="_blank">Instagram</a>
-            <a href="#" target="_blank">Facebook</a>
-            <a href="#" target="_blank">TikTok</a>
-            <a href="#" target="_blank">Twiter</a>
-        </section>
-        <section id="contatos">
-            <h1>contatos</h1>
-            <p>(99)9999-9999</p>
-            <p></p>
-        </section>
-        <section id="lojamaisproxima">
-            <h1>Loja mais próxima</h1>
-            <a href="https://www.google.com.br/maps/search/gatinhos+felizes/@-23.7166929,-46.6499461,11.04z?entry=ttu" target="_blank">Google Maps</a>
-        </section>
+        <div class="inline-blocks">
+            <div class="bloco">
+                <h1>Redes Sociais</h1>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">TikTok</a>
+                <a href="#" target="_blank">Twiter</a>
+            </div>
+            <div class="bloco">
+                <h1>contatos</h1>
+                <p>(99)9999-9999</p>
+                <p></p>
+            </div>
+            <div class="bloco">
+                <h1>Loja mais próxima</h1>
+                <a href="https://www.google.com.br/maps/search/gatinhos+felizes/@-23.7166929,-46.6499461,11.04z?entry=ttu" target="_blank">Google Maps</a>
+            </div>
+        </div>
     </footer>
     <footer id="rodape">
-        <p>Site criado por <strong>Alexandre Cabral</strong>: <a href="https://github.com/Alexandre-CES">github.com/Alexandre-CES</a></p>
+        <p>Site criado por <strong>Alexandre Cabral</strong>: <a href="https://github.com/Alexandre-CES" target="_blank" rel="author">github.com/Alexandre-CES</a></p>
     </footer>
 </body>
 </html>

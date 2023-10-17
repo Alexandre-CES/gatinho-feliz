@@ -107,16 +107,17 @@ section#produtos{
 }
 
 article#imagemdefundo1{
-    position: relative;
     background: var(--cor1) url(imagens/fundo/pexels-pixabay-160755.jpg) center top no-repeat fixed;
     background-size: cover;
+}
+
+div.cordefundo{
+    max-width: 1000px;
     height: 500px;
 }
 
-div.escurecerfundo{
+div#cordefundo1{
     background-image: linear-gradient(to right, var(--cor5), transparent);
-    max-width: 1000px;
-    height: 500px;
 }
 
 div.caixadefundo{
@@ -139,7 +140,7 @@ div.caixadefundo > p{
 
 article#maisvendidos > h1{
     font:normal 2em var(--Fonte-destaque);
-    margin: 50px 0px 50px 0px;
+    margin: 100px 0px 100px 0px;
     padding: 0px 0px 0px 50px;
     background: linear-gradient(to right, var(--cor1), transparent);
 }
@@ -149,7 +150,7 @@ div.inline-blocks{
     margin: auto;
 }
 
-div.produto{
+div.bloco{
     border: black solid 1px;
     display: inline-block;
     width: 23%;
@@ -157,11 +158,11 @@ div.produto{
     text-align: center;
 }
 
-div.produto img{
+div.bloco img{
     width: 70%;
 }
 
-div.produto h1{
+.nomeproduto{
     font:normal 1.5em var(--Fonte-destaque);
     background: var(--cor2);
 }
@@ -171,3 +172,74 @@ p.descricaoproduto{
 }
 
 /*funcionários*/
+
+article#imagemdefundo2{
+    background:var(--cor3) url(https://plus.unsplash.com/premium_photo-1663011161366-4b812777c636?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470) center top no-repeat fixed;
+    background-size: cover;
+}
+
+div#cordefundo2{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+}
+
+/*profissional*/
+
+.profissional{
+    display: inline-block;
+    border: black solid 1px;
+    width: 23%;
+    margin: 100px 10px 30px;
+    text-align: center;
+}
+
+.profissional h1{
+    background-color: var(--cor2);
+}
+
+.profissional > img{
+    height: 300px;
+    width: 300px;
+}
+
+.profissional > p{
+    background-color: var(--cor1);
+}
+
+/*gatinho aleatório*/
+
+div#gatinhoaleatorio > img{
+    display: block;
+    margin: auto;
+}
+
+/*footer*/
+
+footer#informacao{
+    background-color:rgb(39, 39, 39);
+}
+
+.caixarodape{
+    display: inline-block;
+    max-width: 23%;
+    margin: auto;
+}
+
+section#redessociais{
+
+}
+
+/*rodape*/
+footer#rodape{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+footer#rodape p > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer#rodape p > a:hover{
+    text-decoration:underline;
+}
