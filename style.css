@@ -218,17 +218,26 @@ footer#informacao{
     background-color:rgb(39, 39, 39);
 }
 
-.caixarodape{
-    display: inline-block;
-    max-width: 23%;
-    margin: auto;
+footer#informacao > div div{
+    color: white;
 }
 
-section#redessociais{
+footer#informacao > div div a {
+    color: white;
+    text-decoration: none;
+}
 
+footer#informacao > div div p{
+    text-align: left;
+    margin: 10px;
+}
+
+footer#informacao > div div a:hover{
+    text-decoration: underline;
 }
 
 /*rodape*/
+
 footer#rodape{
     text-align: center;
     color: white;
